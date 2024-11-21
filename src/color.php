@@ -1,6 +1,6 @@
 <?php
 
-enum Color {
-    case Black;
-    case White;
+enum Color: int {
+    case Black = 1;
+    case White = 2;
 }
